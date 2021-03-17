@@ -6,9 +6,9 @@ USDT(omni  btc)
 USDT(ERC20 eth)  泰达币  
 
 #### 1.2 功能描述
- 上述币种的自动归总， 记账功能 以及审核提币功能
-#### 1.接口校验
-1. 将参数按字典序排序，进行Get请求方式参数拼接
+ 上述币种的自动归总 auto sum-up， 记账功能 Accounting 以及审核提币功能 Review withdraw
+#### 1.接口校验 Port Check
+1. 将参数paramenter 按字典序排序alphabetical order，进行Get请求方式参数拼接
 2. 将拼接好的参数列表加入key(向钱包方申请)
 3. 将上述拼接好的参数进行md5摘要运算
 4. 将上述运算出来的值加入参数列表，参数名为 **sign**
